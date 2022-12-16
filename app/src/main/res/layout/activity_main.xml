@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:transitionGroup="true">
+
+
+    <EditText
+        android:id="@+id/txtEntryValue"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="26dp"
+        android:fontFamily="@font/advent_pro_semibold"
+        android:gravity="left|center"
+        android:hint="Okunacak Text gir"
+        android:lines="10"
+        android:maxLines="15"
+        android:minLines="5" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtEntryValue"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/my_button_bg"
+        android:fontFamily="@font/alata"
+        android:text="@string/listen"
+        android:textColor="#FFFFFF" />
+
+
+</RelativeLayout>
+
+
+
